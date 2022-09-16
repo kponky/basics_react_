@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contactcard{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color:rgb(240, 202, 152);
+  padding: 10px;
+  box-shadow: 10px 10px 25px -16px rgba(0, 0, 0.75);
+  border-radius: 10px;
+  height: 170px;
+  width:350px;
+  margin: 30px;
+  font-size: 900;
 }
 
-.App-link {
-  color: #61dafb;
+.contactcard-img{
+  height: 250px;
+  width: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contactcard img{
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+}
+
+.user-details{
+  margin-left: 100px;
+}
+
+.contactcard p{
+  margin-left: 15px;
+}
+
+.contactcard h4{
+  margin-left: 15px;
+}
+
+button {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(208, 122, 16);
+  box-shadow: 10px 10px 25px -10px rgba(3, 5, 40);
+  border-radius: 9px;
+  padding: 8px;
+  border: none;
 }
